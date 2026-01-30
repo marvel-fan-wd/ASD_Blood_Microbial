@@ -1,0 +1,101 @@
+tip_label	species_name	tip_number	phylum	phylum_group
+Agrobacterium_tumefaciens	Agrobacterium tumefaciens	68	Pseudomonadota	Pseudomonadota
+Alicycliphilus_denitrificans	Alicycliphilus denitrificans	82	Pseudomonadota	Pseudomonadota
+Aromatoleum_toluolicum	Aromatoleum toluolicum	75	Pseudomonadota	Pseudomonadota
+Bacillus_carboniphilus	Bacillus carboniphilus	20	Bacillota	Bacillota
+Bdellovibrio_bacteriovorus	Bdellovibrio bacteriovorus	45	Bdellovibrionota	Residuals
+Brevundimonas_naejangsanensis	Brevundimonas naejangsanensis	47	Pseudomonadota	Pseudomonadota
+Brucella_anthropi	Brucella anthropi	59	Pseudomonadota	Pseudomonadota
+Brucella_intermedia	Brucella intermedia	62	Pseudomonadota	Pseudomonadota
+Brucella_pseudintermedia	Brucella pseudintermedia	61	Pseudomonadota	Pseudomonadota
+Brucella_sp._09RB8910	Brucella sp. 09RB8910	63	Pseudomonadota	Pseudomonadota
+Brucella_sp._2280	Brucella sp. 2280	64	Pseudomonadota	Pseudomonadota
+Brucella_sp._JSBI001	Brucella sp. JSBI001	60	Pseudomonadota	Pseudomonadota
+Brucella_sp._MAB-22	Brucella sp. MAB-22	58	Pseudomonadota	Pseudomonadota
+Campylobacter_concisus	Campylobacter concisus	46	Campylobacterota	Residuals
+Candidatus_Nanosynbacter_sp._HMT-352	Candidatus Nanosynbacter sp. HMT-352	27	Candidatus_Saccharibacteria	Residuals
+Capnocytophaga_sputigena	Capnocytophaga sputigena	29	Bacteroidota	Bacteroidota
+Chlamydia_psittaci	Chlamydia psittaci	43	Chlamydiota	Chlamydiota
+Cohnella_sp._LGH	Cohnella sp. LGH	22	Bacillota	Bacillota
+Comamonas_aquatica	Comamonas aquatica	77	Pseudomonadota	Pseudomonadota
+Comamonas_terrigena	Comamonas terrigena	76	Pseudomonadota	Pseudomonadota
+Comamonas_thiooxydans	Comamonas thiooxydans	80	Pseudomonadota	Pseudomonadota
+Cupriavidus_basilensis	Cupriavidus basilensis	91	Pseudomonadota	Pseudomonadota
+Cupriavidus_metallidurans	Cupriavidus metallidurans	90	Pseudomonadota	Pseudomonadota
+Curtobacterium_flaccumfaciens	Curtobacterium flaccumfaciens	13	Actinomycetota	Actinomycetota
+Cutibacterium_acnes	Cutibacterium acnes	17	Actinomycetota	Actinomycetota
+Cutibacterium_modestum	Cutibacterium modestum	16	Actinomycetota	Actinomycetota
+Delftia_acidovorans	Delftia acidovorans	78	Pseudomonadota	Pseudomonadota
+Delftia_tsuruhatensis	Delftia tsuruhatensis	79	Pseudomonadota	Pseudomonadota
+Duganella_dendranthematis	Duganella dendranthematis	89	Pseudomonadota	Pseudomonadota
+Elizabethkingia_anophelis	Elizabethkingia anophelis	30	Bacteroidota	Bacteroidota
+Enterobacter_hormaechei	Enterobacter hormaechei	5	Pseudomonadota	Pseudomonadota
+Enterococcus_faecium	Enterococcus faecium	21	Bacillota	Bacillota
+Flavobacterium_branchiophilum	Flavobacterium branchiophilum	28	Bacteroidota	Bacteroidota
+Haemophilus_parahaemolyticus	Haemophilus parahaemolyticus	8	Pseudomonadota	Pseudomonadota
+Klebsiella_michiganensis	Klebsiella michiganensis	6	Pseudomonadota	Pseudomonadota
+Kocuria_rhizophila	Kocuria rhizophila	12	Actinomycetota	Actinomycetota
+Lancefieldella_parvula	Lancefieldella parvula	19	Actinomycetota	Actinomycetota
+Massilia_oculi	Massilia oculi	87	Pseudomonadota	Pseudomonadota
+Massilia_putida	Massilia putida	88	Pseudomonadota	Pseudomonadota
+Mesorhizobium_australicum	Mesorhizobium australicum	52	Pseudomonadota	Pseudomonadota
+Mesorhizobium_koreense	Mesorhizobium koreense	57	Pseudomonadota	Pseudomonadota
+Mesorhizobium_sp._113-1-2	Mesorhizobium sp. 113-1-2	55	Pseudomonadota	Pseudomonadota
+Mesorhizobium_sp._131-2-1	Mesorhizobium sp. 131-2-1	51	Pseudomonadota	Pseudomonadota
+Mesorhizobium_sp._M1B.F.Ca.ET.045.04.1.1	Mesorhizobium sp. M1B.F.Ca.ET.045.04.1.1	50	Pseudomonadota	Pseudomonadota
+Mesorhizobium_sp._M2A.F.Ca.ET.043.05.1.1	Mesorhizobium sp. M2A.F.Ca.ET.043.05.1.1	49	Pseudomonadota	Pseudomonadota
+Mesorhizobium_sp._M7A.F.Ce.TU.012.03.2.1	Mesorhizobium sp. M7A.F.Ce.TU.012.03.2.1	53	Pseudomonadota	Pseudomonadota
+Mesorhizobium_sp._M7D.F.Ca.US.005.01.1.1	Mesorhizobium sp. M7D.F.Ca.US.005.01.1.1	54	Pseudomonadota	Pseudomonadota
+Mesorhizobium_sp._NBSH29	Mesorhizobium sp. NBSH29	56	Pseudomonadota	Pseudomonadota
+Microbacterium_sp._AZCO	Microbacterium sp. AZCO	14	Actinomycetota	Actinomycetota
+Neisseria_subflava	Neisseria subflava	74	Pseudomonadota	Pseudomonadota
+Ochrobactrum_quorumnocens	Ochrobactrum quorumnocens	65	Pseudomonadota	Pseudomonadota
+Parabacteroides_distasonis	Parabacteroides distasonis	41	Bacteroidota	Bacteroidota
+Paraburkholderia_acidiphila	Paraburkholderia acidiphila	93	Pseudomonadota	Pseudomonadota
+Paraburkholderia_acidisoli	Paraburkholderia acidisoli	92	Pseudomonadota	Pseudomonadota
+Paraburkholderia_aromaticivorans	Paraburkholderia aromaticivorans	100	Pseudomonadota	Pseudomonadota
+Paraburkholderia_bonniea	Paraburkholderia bonniea	98	Pseudomonadota	Pseudomonadota
+Paraburkholderia_caribensis	Paraburkholderia caribensis	96	Pseudomonadota	Pseudomonadota
+Paraburkholderia_pallida	Paraburkholderia pallida	94	Pseudomonadota	Pseudomonadota
+Paraburkholderia_phytofirmans	Paraburkholderia phytofirmans	1	Pseudomonadota	Pseudomonadota
+Paraburkholderia_sp._IMGN_8	Paraburkholderia sp. IMGN 8	99	Pseudomonadota	Pseudomonadota
+Paraburkholderia_sp._SOS3	Paraburkholderia sp. SOS3	97	Pseudomonadota	Pseudomonadota
+Paraburkholderia_tropica	Paraburkholderia tropica	95	Pseudomonadota	Pseudomonadota
+Paracidovorax_avenae	Paracidovorax avenae	81	Pseudomonadota	Pseudomonadota
+Paracoccus_yeei	Paracoccus yeei	71	Pseudomonadota	Pseudomonadota
+Phocaeicola_vulgatus	Phocaeicola vulgatus	40	Bacteroidota	Bacteroidota
+Piscinibacter_sp._XHJ-5	Piscinibacter sp. XHJ-5	84	Pseudomonadota	Pseudomonadota
+Prescottella_equi	Prescottella equi	18	Actinomycetota	Actinomycetota
+Prevotella_denticola	Prevotella denticola	34	Bacteroidota	Bacteroidota
+Prevotella_histicola	Prevotella histicola	35	Bacteroidota	Bacteroidota
+Prevotella_intermedia	Prevotella intermedia	36	Bacteroidota	Bacteroidota
+Prevotella_jejuni	Prevotella jejuni	33	Bacteroidota	Bacteroidota
+Prevotella_melaninogenica	Prevotella melaninogenica	32	Bacteroidota	Bacteroidota
+Prevotella_nigrescens	Prevotella nigrescens	37	Bacteroidota	Bacteroidota
+Prevotella_scopos	Prevotella scopos	31	Bacteroidota	Bacteroidota
+Prevotella_sp._oral_taxon_299	Prevotella sp. oral taxon 299	39	Bacteroidota	Bacteroidota
+Pseudoalteromonas_sp._3J6	Pseudoalteromonas sp. 3J6	2	Pseudomonadota	Pseudomonadota
+Pseudolabrys_taiwanensis	Pseudolabrys taiwanensis	70	Pseudomonadota	Pseudomonadota
+Rhizobium_oryzihabitans	Rhizobium oryzihabitans	66	Pseudomonadota	Pseudomonadota
+Rhizobium_sp._X9	Rhizobium sp. X9	67	Pseudomonadota	Pseudomonadota
+Rhodoferax_koreense	Rhodoferax koreense	83	Pseudomonadota	Pseudomonadota
+Rothia_dentocariosa	Rothia dentocariosa	10	Actinomycetota	Actinomycetota
+Rothia_mucilaginosa	Rothia mucilaginosa	11	Actinomycetota	Actinomycetota
+Salmonella_enterica	Salmonella enterica	4	Pseudomonadota	Pseudomonadota
+Salmonella_sp.	Salmonella sp.	3	Pseudomonadota	Pseudomonadota
+Schaalia_sp._HMT-172	Schaalia sp. HMT-172	15	Actinomycetota	Actinomycetota
+Segatella_oris	Segatella oris	38	Bacteroidota	Bacteroidota
+Shinella_sumterensis	Shinella sumterensis	69	Pseudomonadota	Pseudomonadota
+Solitalea_canadensis	Solitalea canadensis	42	Bacteroidota	Bacteroidota
+Sphaerotilus_microaerophilus	Sphaerotilus microaerophilus	85	Pseudomonadota	Pseudomonadota
+Sphaerotilus_sulfidivorans	Sphaerotilus sulfidivorans	86	Pseudomonadota	Pseudomonadota
+Sphingobium_yanoikuyae	Sphingobium yanoikuyae	48	Pseudomonadota	Pseudomonadota
+Thalassobaculum_sp._OXR-137	Thalassobaculum sp. OXR-137	72	Pseudomonadota	Pseudomonadota
+Treponema_pallidum	Treponema pallidum	44	Spirochaetota	Spirochaetota
+Veillonella_atypica	Veillonella atypica	26	Bacillota	Bacillota
+Veillonella_dispar	Veillonella dispar	23	Bacillota	Bacillota
+Veillonella_nakazawae	Veillonella nakazawae	24	Bacillota	Bacillota
+Veillonella_sp._S12025-13	Veillonella sp. S12025-13	25	Bacillota	Bacillota
+Wolbachia_pipientis	Wolbachia pipientis	73	Pseudomonadota	Pseudomonadota
+Xylella_fastidiosa	Xylella fastidiosa	9	Pseudomonadota	Pseudomonadota
+Yersinia_enterocolitica	Yersinia enterocolitica	7	Pseudomonadota	Pseudomonadota
