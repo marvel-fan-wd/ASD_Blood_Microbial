@@ -1,0 +1,101 @@
+#!/bin/bash
+set -euo pipefail
+
+source ~/.bashrc
+source ~/anaconda3/etc/profile.d/conda.sh
+
+i=${SLURM_ARRAY_TASK_ID}
+N_THREADS=${SLURM_CPUS_PER_TASK}
+echo "Running task ${i}"
+
+CRAM_FILES=(~/SSC/WGS/cram/*.cram)
+CRAM=${CRAM_FILES[${i}]}
+prefix=$(basename "${CRAM}" .cram)
+
+WK_SAMTOOLS=~/S1_samtools
+WK_TEMP=~/temp
+WK_KRAKEN=~/S3_kraken
+WK_BRACKEN=~/S4_bracken
+
+mkdir -p "${WK_SAMTOOLS}" "${WK_TEMP}" "${WK_KRAKEN}" "${WK_BRACKEN}"
+
+conda activate samtools
+samtools view -@ ${N_THREADS} -u -f12 -F256 \
+    -T ${REF} \
+    -o ${WK_SAMTOOLS}/${prefix}.bam \
+    ${CRAM}
+
+samtools fastq -@ ${N_THREADS} \
+    -1 ${WK_SAMTOOLS}/${prefix}.R1.fastq.gz \
+    -2 ${WK_SAMTOOLS}/${prefix}.R2.fastq.gz \
+    ${WK_SAMTOOLS}/${prefix}.bam
+
+rm -f ${WK_SAMTOOLS}/${prefix}.bam
+conda deactivate
+
+/gpfs/hpc/home/lijc/yupei/software/bbmap/bbduk.sh \
+    threads=${N_THREADS} \
+    in1=${WK_SAMTOOLS}/${prefix}.R1.fastq.gz \
+    in2=${WK_SAMTOOLS}/${prefix}.R2.fastq.gz \
+    out1=${WK_TEMP}/${prefix}.qc1.R1.fastq.gz \
+    out2=${WK_TEMP}/${prefix}.qc1.R2.fastq.gz \
+    qtrim=rl \
+    trimq=20 \
+    overwrite=t
+
+rm -f ${WK_SAMTOOLS}/${prefix}.R1.fastq.gz ${WK_SAMTOOLS}/${prefix}.R2.fastq.gz
+
+/gpfs/hpc/home/lijc/yupei/software/bbmap/bbduk.sh \
+    threads=${N_THREADS} \
+    in1=${WK_TEMP}/${prefix}.qc1.R1.fastq.gz \
+    in2=${WK_TEMP}/${prefix}.qc1.R2.fastq.gz \
+    out1=${WK_TEMP}/${prefix}.qc2.R1.fastq.gz \
+    out2=${WK_TEMP}/${prefix}.qc2.R2.fastq.gz \
+    maq=20 \
+    overwrite=t
+
+rm -f ${WK_TEMP}/${prefix}.qc1.R1.fastq.gz ${WK_TEMP}/${prefix}.qc1.R2.fastq.gz
+
+/gpfs/hpc/home/lijc/yupei/software/bbmap/bbduk.sh \
+    threads=${N_THREADS} \
+    in1=${WK_TEMP}/${prefix}.qc2.R1.fastq.gz \
+    in2=${WK_TEMP}/${prefix}.qc2.R2.fastq.gz \
+    out1=${WK_TEMP}/${prefix}.qc3.R1.fastq.gz \
+    out2=${WK_TEMP}/${prefix}.qc3.R2.fastq.gz \
+    entropy=0.6 \
+    entropywindow=50 \
+    entropyk=5 \
+    overwrite=t
+
+rm -f ${WK_TEMP}/${prefix}.qc2.R1.fastq.gz ${WK_TEMP}/${prefix}.qc2.R2.fastq.gz
+
+conda activate Kraken2
+DB=~/k2_pluspf_20240904
+kraken2 \
+    --threads ${N_THREADS} \
+    --db ${DB} \
+    --paired \
+    --report ${WK_KRAKEN}/${prefix}.kreport \
+    --output ${WK_KRAKEN}/${prefix}.kraken \
+    ${WK_TEMP}/${prefix}.qc3.R1.fastq.gz \
+    ${WK_TEMP}/${prefix}.qc3.R2.fastq.gz
+
+conda activate bracken
+
+bracken \
+    -d ${DB} \
+    -i ${WK_KRAKEN}/${prefix}.kreport \
+    -l S \
+    -r 150 \
+    -o ${WK_BRACKEN}/${prefix}.bracken.S \
+    -w ${WK_BRACKEN}/${prefix}.bracken.S.tsv
+
+python /gpfs/hpc/home/lijc/yupei/anaconda3/envs/Kraken2/bin/kreport2mpa.py \
+    -r ${WK_BRACKEN}/${prefix}.bracken.S.tsv \
+    -o ${WK_BRACKEN}/${prefix}.bracken.S.mpa.tsv \
+    --no-intermediate-ranks
+
+conda deactivate
+
+echo "Finished ${prefix}"
+

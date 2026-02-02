@@ -1,0 +1,22 @@
+# Processing blood-derived non-host reads and taxonomic profiling (SSC WGS pipeline)
+# 1. Define working directories for each module (samtools extraction, temporary QC files, Kraken2 outputs, Bracken outputs),
+#    then create them with mkdir -p.
+#
+# 2. Extract non-host (unmapped) read pairs from CRAM using samtools:
+#    - samtools view: select read pairs where both mates are unmapped (-f12) and remove secondary alignments (-F256), write to BAM.
+#    - samtools fastq: convert BAM to paired FASTQ (R1/R2), then delete the intermediate BAM to save space.
+#
+# 3. Perform read-level QC using bbduk in three steps:
+#    - QC1 (trim): trim low-quality bases from both ends (qtrim=rl, trimq=20).
+#    - QC2 (filter): filter reads by minimum average quality (maq=20).
+#    - QC3 (complexity): remove low-complexity sequences (entropy=0.6, entropywindow=50, entropyk=5).
+#
+# 4. Classify the remaining high-quality read pairs using Kraken2:
+#    - Run Kraken2 against the specified database (--db ${DB}) in paired-end mode,
+#      generating a classification output file and a per-sample report (.kreport).
+#
+# 5. Re-estimate species-level abundances using Bracken:
+#    - Run Bracken on the Kraken2 report at species level (-l S) with read length -r 150,
+#      outputting both the main abundance table and the Bracken report TSV.
+#
+# 6. Deactivate conda environment and print a completion message for the sample prefix.
