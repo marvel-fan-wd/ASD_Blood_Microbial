@@ -2,9 +2,8 @@ library(vegan);library(picante);library(dplyr);library(ggpubr)
 
 df <- read.csv("E:/2025.8-2026.7/iScience_revision/Species_abundance.csv",row.names = 1,header = T)
 Shannon <- diversity(df, index = "shannon", MARGIN = 2)
-Simpson <- diversity(df, index = "simpson", MARGIN = 2)
 Richness <- specnumber(df, MARGIN = 2)
-alpha <- as.data.frame(cbind(Shannon, Simpson, Richness))
+alpha <- as.data.frame(cbind(Shannon, Richness))
 meta <- read.csv("E:/2025.8-2026.7/iScience_revision/SSC_sample_meta.csv",header = T)
 alpha2 <- merge(alpha,meta,by="SPID")
 alpha2$Role <- gsub("p1", "ASD", gsub("s1", "NT", alpha2$Role))
@@ -40,4 +39,5 @@ ggbarplot(
     axis.title.x = element_text(size = 14),
     axis.title.y = element_text(size = 14),
 	legend.position = "none"
+
   )
