@@ -1,4 +1,4 @@
-Genus	detect_ratio_discovery	mean_abundance_discovery	detect_ratio_validation	mean_abundance_validation
+Genus	prevalence_discovery	mean_abundance_discovery	prevalence_validation	mean_abundance_validation
 Aromatoleum	0.058067831	0.004230138	0.067294751	7.61E-07
 Bacillus	0.019013361	4.60E-05	0.076716016	4.47E-05
 Bdellovibrio	0.035457348	0.000599966	0.065948856	0.000106729
@@ -56,3 +56,4 @@ Agrobacterium	0.065775951	0.001311285	0.990578735	0.025279497
 Xylella	0.012846865	0.000577437	0.258411844	0.000242719
 Brucella	0.028263104	0.003937297	1	0.404618513
 Yersinia	0.061151079	0.012925583	0.323014805	0.000701978
+
