@@ -1,6 +1,6 @@
 library(data.table);library(ggplot2)
 
-oxygen <- read.delim("E:/2025.8-2026.7/iScience_revision/oxygen_type.tsv")
+oxygen <- read.delim("E:/2025.8-2026.7/iScience_revision/Oxygen_type.tsv")
 
 ggplot(oxygen, aes(x = 2, y = n, fill = reorder(Oxygen, -percentage))) +
   geom_bar(stat = "identity", width = 1) +
@@ -15,3 +15,4 @@ ggplot(oxygen, aes(x = 2, y = n, fill = reorder(Oxygen, -percentage))) +
   ) +
   xlim(0.5, 2.5) +
   labs(title = "", fill = "Oxygen Type")
+
