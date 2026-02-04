@@ -1,6 +1,6 @@
 library(ComplexHeatmap);library(circlize);library(grid)
 
-cor <- read.csv("E:/2025.8-2026.7/iScience_revision/Abundance_phenotype_association_beta.csv", header = TRUE, row.names = 1)
+cor <- read.csv("E:/2025.8-2026.7/iScience_revision/Abundance_phenotype_association_coefficient.csv", header = TRUE, row.names = 1)
 pval <- read.csv("E:/2025.8-2026.7/iScience_revision/Abundance_phenotype_association_pval.csv", header = TRUE, row.names = 1)
 type <- read.csv("E:/2025.8-2026.7/iScience_revision/pheno_analysis/pheno.csv", header = TRUE)
 unique(type$Type)
@@ -33,7 +33,7 @@ col_fun <- colorRamp2(c(-0.1, 0, 0.1), c("#0f86a9", "white", "#FC8452"))
 
 Heatmap(
   cor,
-  name = "Correlation",
+  name = "Coefficient",
   col = col_fun,
   cluster_rows = FALSE,
   cluster_columns = FALSE,
@@ -52,10 +52,11 @@ Heatmap(
   column_names_gp = gpar(fontsize = 13),
   column_title_gp = gpar(fontsize = 14, fontface = "bold"),
   heatmap_legend_param = list(
-    title = "Correlation",
+    title = "Coefficient",
     title_gp = gpar(fontsize = 14, fontface = "bold"),
     labels_gp = gpar(fontsize = 12),
     at = c(-0.1, 0, 0.1),
     labels = c("-0.1", "0", "0.1")
   )
 )
+
