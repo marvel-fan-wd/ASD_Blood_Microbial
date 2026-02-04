@@ -1,0 +1,13 @@
+Species,Head circumference,Height,Weight,Prenatal optimality level,Intrapartal optimality level,Neonatal optimality level,Prenatal optimality score,Intrapartal optimality score,Neonatal optimality score,Casein in current,Gluten in current,Vitamins in current,Puberty progress,Non-febrile seizures,Febrile seizures,Gastrointestinal disorder,Sleep problem,Antibiotics in current,psychotropic medication in current,Vineland-II composite score,VABS-II DLS socre,VABS-II communication socre,VABS-II socialization socre,VIQ,NVIQ,Full-scale IQ,ABC score,RBSR overall score,RBSR self injurious score,RBSR compulsive behavior score,RBSR ritualistic behavior score,RBSR sameness behavior score,RBSR restricted behavior score,RBSR stereotyped behavior score,ADIR behavior score,ADOS social affect score,ADOS reciprocal social score,ADOS communication and social score,ADOS communication score,SCQ overall socre,SCQ communication,SCQ interaction,SCQ stereotype
+Pseudoalteromonas sp. 3J6,,,,,,,,,,,,,,,,,,,,0.0166222137176161,,0.00344628808565992,,0.0112820332857769,0.000727075286098197,0.00183849823918637,,,,,,,,,,,,,,,,,
+Prescottella equi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bdellovibrio bacteriovorus,,,,,,,,,,,,,,,,,,,,,0.0210602543938232,,,,,,,,,,,,,,,,,,,,,,
+Parabacteroides distasonis,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Enterobacter hormaechei,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Xylella fastidiosa,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wolbachia pipientis,,,,,,,,,,,,,,,,,,,,0.0156703894668743,0.0283865010660907,0.00692610766630787,0.0362454349297928,,0.0140945433132468,0.0178479953696391,,,,,,,,,,,,,,,,,
+Yersinia enterocolitica,,,,,,0.04200617146151,,,0.0407315975134271,,,,,,,,,,,,,0.0492154627541276,,,0.0117018263846901,0.0128770679110869,,,,,,,,,,,,,,,,,
+Elizabethkingia anophelis,,,,,,,,,,,,,,,,,,,,,,,,,0.014393130212285,0.0178479953696391,,,,,,,,,,,,,,,,,
+Treponema pallidum,,,,,,,,,,,,,,,,,,,,,,,,,,0.0295445251821387,,,,,,,,,,,,,,,,,
+Klebsiella michiganensis,,,,,,,,,,,,,,,,,,,,4.85942349218247e-05,2.37484807686458e-06,0.000584919969794539,0.00432038306024388,2.39547771629537e-05,1.61714327761109e-06,1.07281389102159e-06,,,,,,,,,,,,,,,0.00515426294794219,,
+Ochrobactrum quorumnocens,,,,,,,,,,,,,,,,,,,,,,0.0494037772050922,,,0.0176075475126632,0.0178479953696391,,,,,,,,,,,,,,,,,

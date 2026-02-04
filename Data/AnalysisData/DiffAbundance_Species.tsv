@@ -1,0 +1,493 @@
+Species	Coefficient	p value	FDR
+Ochrobactrum quorumnocens	-0.005966587	0.422522774	0.986323832
+Pseudoalteromonas sp. 3J6	-0.89823945	1.11E-26	5.56E-24
+Prescottella equi	-0.43286458	2.11E-16	5.28E-14
+Parabacteroides distasonis	-0.414935842	1.23E-13	2.05E-11
+Xylella fastidiosa	-0.190671269	1.27E-07	1.27E-05
+Enterobacter hormaechei	-0.226686213	2.66E-06	0.000221639
+Wolbachia pipientis	-0.177799353	4.07E-06	0.000290833
+Yersinia enterocolitica	-0.22199128	0.000100517	0.005584283
+Treponema pallidum	-0.435122427	6.31E-06	0.000394592
+Elizabethkingia anophelis	-0.112786334	0.000189545	0.00947726
+Klebsiella michiganensis	0.575907785	1.12E-09	1.40E-07
+Bdellovibrio bacteriovorus	0.106705431	0.000245825	0.011173854
+Shinella sumterensis	-0.233130517	0.038129647	0.590294609
+Salmonella sp.	-0.102608016	0.047830496	0.646358048
+Paraburkholderia acidiphila	-0.106651819	0.165531802	0.948843422
+Salmonella enterica	-0.045501606	0.049872083	0.656211615
+Enterococcus faecium	0.019917625	0.03973072	0.590294609
+Chlamydia psittaci	-0.075094396	0.147944184	0.936355595
+Paraburkholderia tropica	-0.062244263	0.31229355	0.986323832
+Agrobacterium tumefaciens	0.025944219	0.132876395	0.907183855
+Paraburkholderia acidisoli	-0.070037994	0.244605791	0.986323832
+Alicycliphilus denitrificans	0.078423677	0.097194341	0.779232697
+Flavobacterium branchiophilum	-0.0430785	0.458274313	0.986323832
+Rhodoferax koreense	0.040400424	0.222656613	0.986323832
+Paraburkholderia aromaticivorans	-0.110377122	0.159509097	0.948843422
+Delftia acidovorans	0.091066193	0.02929704	0.590294609
+Paraburkholderia pallida	-0.028366171	0.622350193	0.986323832
+Mesorhizobium sp. M7D.F.Ca.US.005.01.1.1	-0.022402719	0.269177051	0.986323832
+Cohnella sp. LGH	0.018773368	0.388065378	0.986323832
+Neisseria subflava	-0.000759639	0.963639666	0.996207684
+Kocuria rhizophila	0.0017391	0.898602899	0.995666422
+Brevundimonas naejangsanensis	0.022534175	0.218879738	0.986323832
+Mesorhizobium sp. 131-2-1	-0.027006067	0.056616585	0.725853657
+Phocaeicola vulgatus	0.04768657	0.032971782	0.590294609
+Rothia dentocariosa	0.003358837	0.760440202	0.989563508
+Mesorhizobium sp. NBSH29	-0.011215984	0.295014485	0.986323832
+Duganella dendranthematis	-0.014461729	0.385793281	0.986323832
+Curtobacterium flaccumfaciens	-0.002604828	0.832015865	0.989563508
+Rothia mucilaginosa	0.006203636	0.769890801	0.989563508
+Prevotella histicola	0.006285863	0.751003136	0.989563508
+Mesorhizobium sp. M7A.F.Ce.TU.012.03.2.1	-0.009741684	0.403369903	0.986323832
+Veillonella nakazawae	0.003837036	0.539914883	0.986323832
+Veillonella sp. S12025-13	0.003286288	0.583769551	0.986323832
+Mesorhizobium sp. M1B.F.Ca.ET.045.04.1.1	-0.005398014	0.80296456	0.989563508
+Paraburkholderia phytofirmans	-0.060601813	0.429283337	0.986323832
+Delftia tsuruhatensis	0.129698889	0.065009592	0.755925483
+Veillonella dispar	0.004270514	0.495336712	0.986323832
+Comamonas terrigena	0.063238874	0.135254601	0.907183855
+Paraburkholderia sp. SOS3	-0.043923449	0.350471648	0.986323832
+Sphaerotilus microaerophilus	-0.022218821	0.609074454	0.986323832
+Cupriavidus metallidurans	0.028857954	0.507675586	0.986323832
+Prevotella scopos	-0.000931052	0.733580546	0.989563508
+Aromatoleum toluolicum	0.019523389	0.541114621	0.986323832
+Rhizobium oryzihabitans	-0.008452135	0.569038763	0.986323832
+Lancefieldella parvula	0.001213394	0.810476315	0.989563508
+Prevotella nigrescens	0.009664712	0.544240603	0.986323832
+Paracidovorax avenae	0.047393434	0.240642637	0.986323832
+Prevotella intermedia	-0.003238969	0.45178622	0.986323832
+Prevotella sp. oral taxon 299	0.006139495	0.636239144	0.986323832
+Comamonas aquatica	-0.003418586	0.938647156	0.995666422
+Veillonella atypica	0.005800017	0.693571056	0.989563508
+Sphingobium yanoikuyae	0.002370185	0.882140315	0.995666422
+Comamonas thiooxydans	0.027884046	0.276666287	0.986323832
+Paraburkholderia sp. IMGN 8	-0.014635464	0.843661075	0.989563508
+Brucella intermedia	0.004465926	0.463680323	0.986323832
+Schaalia sp. HMT-172	0.00366905	0.575062709	0.986323832
+Massilia oculi	0.01880335	0.05910044	0.738755505
+Prevotella denticola	0.003722826	0.732377857	0.989563508
+Piscinibacter sp. XHJ-5	0.029963668	0.430223492	0.986323832
+Sphaerotilus sulfidivorans	-0.00056709	0.98813095	0.996207684
+Cutibacterium acnes	0.040334195	0.702831257	0.989563508
+Campylobacter concisus	0.013851285	0.406469395	0.986323832
+Capnocytophaga sputigena	0.012365964	0.159982846	0.948843422
+Cutibacterium modestum	0.005820809	0.722273046	0.989563508
+Microbacterium sp. AZCO	0.035965807	0.329997665	0.986323832
+Prevotella jejuni	0.011536615	0.590051302	0.986323832
+Cupriavidus basilensis	0.019535226	0.595604722	0.986323832
+Segatella oris	0.005329857	0.400266016	0.986323832
+Massilia putida	-0.00592391	0.776025532	0.989563508
+Pseudolabrys taiwanensis	-0.008621959	0.536881324	0.986323832
+Brucella anthropi	-0.00463176	0.771002431	0.989563508
+Paraburkholderia caribensis	0.009874114	0.854971393	0.991070074
+Brucella sp. MAB-22	0.000254231	0.967237629	0.996207684
+Prevotella melaninogenica	-0.002207346	0.917889684	0.995666422
+Candidatus Nanosynbacter sp. HMT-352	0.000338662	0.95575054	0.996207684
+Mesorhizobium sp. 113-1-2	-0.015568293	0.1886553	0.962527038
+Mesorhizobium koreense	-0.001004332	0.947884563	0.995666422
+Mesorhizobium australicum	-0.016778253	0.144371596	0.925458946
+Paraburkholderia bonniea	0.003393662	0.850679075	0.991070074
+Brucella pseudintermedia	-0.007633862	0.260232375	0.986323832
+Brucella sp. JSBI001	-0.002381782	0.749030264	0.989563508
+Solitalea canadensis	-0.012237931	0.375419664	0.986323832
+Mesorhizobium sp. M2A.F.Ca.ET.043.05.1.1	-0.017523064	0.09712036	0.779232697
+Brucella sp. 09RB8910	-0.002626324	0.089168725	0.779232697
+Bacillus carboniphilus	-0.004234757	0.567942745	0.986323832
+Brucella sp. 2280	-0.002659906	0.038728636	0.590294609
+Haemophilus parahaemolyticus	0.001460538	0.838799484	0.989563508
+Rhizobium sp. X9	-2.56E-05	0.996207684	0.996207684
+Paracoccus yeei	0.001757882	0.83388555	0.989563508
+Thalassobaculum sp. OXR-137	-0.000918126	0.90566736	0.995666422
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
