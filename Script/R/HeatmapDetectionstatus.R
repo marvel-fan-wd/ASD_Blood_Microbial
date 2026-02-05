@@ -1,7 +1,7 @@
 library(ComplexHeatmap);library(circlize);library(grid)
 
-cor <- read.csv("E:/2025.8-2026.7/iScience_revision/Prevalence_phenotype_association_coefficient.csv", header = TRUE, row.names = 1)
-pval <- read.csv("E:/2025.8-2026.7/iScience_revision/Prevalence_phenotype_association_pval.csv", header = TRUE, row.names = 1)
+cor <- read.csv("E:/2025.8-2026.7/iScience_revision/Detectionstatus_phenotype_association_coefficient.csv", header = TRUE, row.names = 1)
+pval <- read.csv("E:/2025.8-2026.7/iScience_revision/Detectionstatus_phenotype_association_pval.csv", header = TRUE, row.names = 1)
 type <- read.csv("E:/2025.8-2026.7/iScience_revision/pheno_analysis/pheno.csv", header = TRUE)
 unique(type$Type)
 
@@ -58,3 +58,4 @@ Heatmap(
   )
 
 )
+
